@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <style>
+      a {
+        color: #4b5f77;
+        background-color: #eb6950;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 55px;
+        transition: background-color 1s ease-in-out;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      a:hover {
+        border-radius: 20px;
+        color: #edf299;
+        background-color: #5bb75d;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Go Home</a>
+  </body>
+</html>

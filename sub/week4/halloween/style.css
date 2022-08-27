@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+/* 스크롤바 넓이 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* 배경 색 */
+::-webkit-scrollbar-track {
+  background-color: #2b302f;
+}
+/* 바 색상, 둥근 정도 */
+::-webkit-scrollbar-thumb {
+  background-color: #6a121d;
+  border-radius: 5px;
+}
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a14743;
+}
+.wrapper {
+  /* height: 100vh; */
+  height: 1300px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: url(./images/halloween-background.gif) no-repeat;
+  background-size: cover;
+}
+header {
+  height: 400px;
+  width: 100vw;
+  background: url(./images/halloween-header-bg.png) no-repeat center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 200px;
+}
+h1 {
+  color: rgb(248, 112, 255);
+}
+p {
+  background-color: black;
+  color: gray;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.contents {
+  background-color: gray;
+}
+.section {
+  background: url(./images/icon-information.png) no-repeat;
+  background-position: 90% center;
+  width: 720px;
+  height: 180px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+.section li {
+  background: url(./images/icon-jack2.png) no-repeat;
+  padding: 10px 50px 10px;
+}
+.section li:hover {
+  background: url(./images/icon-jack.png) no-repeat;
+  color: rgb(255, 123, 0);
+}
+.skills {
+  background-image: url(./images/icon-skills.png);
+  background-repeat: no-repeat;
+}
+h2 {
+  color: rgb(255, 123, 0);
+  margin-bottom: 10px;
+}
+footer {
+  width: 800px;
+  height: 40px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  color: rgb(248, 112, 255);
+}
